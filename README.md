@@ -11,7 +11,7 @@ This is the frontend repository for the EventHex Portal application, built with 
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone [YOUR_REPOSITORY_URL_HERE]
+    git clone https://github.com/Deeshnnasreyas/eventhex-av-team.git
     cd eventhex-portal
     ```
 2.  Install dependencies:

@@ -1,14 +1,11 @@
-import Image from 'next/image';
-import LoginForm from '@/components/LoginForm';
+import Image from "next/image";
+import LoginForm from "@/components/LoginForm";
 
 const page = () => {
   return (
     <main className="flex flex-col lg:flex-row lg:h-screen lg:overflow-hidden">
       {/* Left section */}
-      <section
-        className="relative text-[#FFFFFF] lg:w-[59%] flex flex-col justify-between overflow-hidden w-full h-auto lg:h-screen"
-        // style={{ width: "848px", height: "100vh" }}
-      >
+      <section className="relative text-[#FFFFFF] lg:w-[59%] flex flex-col justify-between overflow-hidden w-full h-auto lg:h-screen">
         <div className="container max-md:!pl-4 pt-6 lg:pt-[89px] ">
           <div
             className="w-full h-full absolute inset-0 object-cover bg-no-repeat bg-cover bg-top"
@@ -16,7 +13,7 @@ const page = () => {
               backgroundImage: `url('/loginbg.svg')`,
             }}
           ></div>
-          {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
+
           <div className="relative z-10 pb-4 lg:pb-[56px] ">
             <Image
               src="/eventlogo.svg"
@@ -45,6 +42,6 @@ const page = () => {
       </section>
     </main>
   );
-}
+};
 
-export default page
+export default page;

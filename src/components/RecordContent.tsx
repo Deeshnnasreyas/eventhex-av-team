@@ -39,18 +39,17 @@ const RecordContent: React.FC = () => {
   const handleGoLiveClick = () => {
     setIsLive((prev) => !prev);
     setIsRunning((prev) => !prev);
-    setIsSoundChecking(false); // Ensure sound check is off when going live
+    setIsSoundChecking(false); 
   };
 
   const handleSoundCheckClick = () => {
     setIsSoundChecking((prev) => !prev);
-    setIsLive(false); // Ensure live mode is off during sound check
-    setIsRunning(false); // Ensure timer is off during sound check
+    setIsLive(false); 
+    setIsRunning(false);
   };
 
   return (
     <div>
-      {/* Video Player Placeholder */}{" "}
       <div
         className="
          relative rounded-[51px] flex items-center justify-center border-[0.5px]
